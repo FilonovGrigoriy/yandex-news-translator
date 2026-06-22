@@ -45,5 +45,17 @@ Thumbs.db
 # Logs
 *.log
 
-# Output files
+# Output / cache files
 translated_news.xml
+.translation_cache.json
+
+# Test / coverage
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json

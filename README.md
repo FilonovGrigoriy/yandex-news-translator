@@ -7,6 +7,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Code style](https://img.shields.io/badge/Code%20style-PEP%208-black)](https://peps.python.org/pep-0008/)
+[![CI](https://github.com/FilonovGrigoriy/yandex-news-translator/actions/workflows/ci.yml/badge.svg)](https://github.com/FilonovGrigoriy/yandex-news-translator/actions)
 [![Yandex Cloud](https://img.shields.io/badge/Yandex%20Cloud-Translate%20API-red?logo=yandex)](https://cloud.yandex.ru/)
 
 </div>
@@ -92,8 +93,8 @@
 
 ```bash
 # 1. Клонировать репозиторий
-git clone https://github.com/username/news-parser-translator.git
-cd news-parser-translator
+git clone https://github.com/FilonovGrigoriy/yandex-news-translator.git
+cd yandex-news-translator
 
 # 2. Создать окружение
 python -m venv venv

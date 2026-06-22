@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  translator:
+    build: .
+    container_name: yandex-news-translator
+    env_file:
+      - .env
+    volumes:
+      - ./output:/app/output
+    restart: unless-stopped
