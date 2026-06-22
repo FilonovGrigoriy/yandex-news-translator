@@ -1,0 +1,1 @@
+# yandex-news-translator
